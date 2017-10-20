@@ -1,12 +1,18 @@
 body{
   background-color: #EEEEEE;
 }
+span.btn.btn-1{
+  margin-top:5px;
+  margin-bottom: 6px;
+}
 #aside{
   font-family: arial,sans-serif;
   font-size: 1em;
   padding: 10px;
   box-sizing: border-box;
   text-align: center;
+  position: relative;
+  top:-25px;
 }
 span img{
   width: 100%;
@@ -87,13 +93,17 @@ span img{
 #top, #middle, #bottom{
   background-color: #FFFFFF;
   margin-bottom: 0.35em;
-  padding: inherit;
+  padding: 5px;
 }
 /*.nav{
   width: 100%;
   padding: 0;
   text-align: left;
 }*/
+.dropdown-toggle{
+font-size:75% !important;
+font-weight: bold;
+}
 .dropdown{
   width: 100%;
   padding: 0;

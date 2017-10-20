@@ -16,14 +16,16 @@ a:hover{
   width: 50px;
   height: 50px;
 }
-.imgl2{
-  padding-top: 20px;
+.image{
+  margin-top: 20px;
 }
 h1, h2{
   color: #000;
   font-size: 30px;
-  margin-bottom: 12px;
   padding-left: 12px;
+}
+#titre{
+  margin-top: 25px;
 }
 .champ{
   border-radius: 0%;
@@ -50,7 +52,7 @@ img.imgpc{
   text-align: center;
 }
 .image{
-  padding: 0;
+  margin-bottom: 20px;
 }
 #seachtext{
   border-right-style: none;
@@ -60,16 +62,16 @@ img.imgpc{
   border-radius: 0%;
   height: 40px;
 }
-.btn{
+#btnsearch{
   border-left-style: none;
   border-color:black;
   border-width: 2px;
   background-color: black;
   color:white;
   border-radius: 0%;
-  padding: 10px;
   height: 40px;
-  margin-top: 0px;
+  width: 70px;
+  margin-top: 7px;
 
 }
 #btnsearch:hover{
