@@ -88,3 +88,34 @@ img.imgpc{
 .labelsearch{
   margin-left: 10px;
 }
+@media screen and (max-width:759px)
+{
+  .dissident{
+    margin-left: 160px;
+  }
+  .h3img{
+    width: 220px;
+  }
+  .container{
+    margin: 0;
+  }
+}
+@media screen and (min-width:760px) and (max-width:991px)
+{
+  .h3img{
+    width: 220px;
+  }
+  .container{
+    margin: 0;
+  }
+}
+@media screen and (min-width:992px) and (max-width:1199px)
+{
+  .h3img{
+    width: 220px;
+  }
+  .container{
+    margin: 0;
+  }
+  }
+}
