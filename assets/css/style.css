@@ -1,0 +1,84 @@
+.container{
+  width:958px;
+}
+body{
+  background-color: #EEEEEE;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  text-decoration: none;
+  color: black;
+}
+.logorange{
+  width: 50px;
+  height: 50px;
+}
+.imgl2{
+  padding-top: 20px;
+}
+h1, h2{
+  color: #000;
+  font-size: 30px;
+  margin-bottom: 12px;
+  padding-left: 12px;
+}
+.champ{
+  border-radius: 0%;
+  border-top: solid black;
+  border-bottom: solid black;
+  border-left: solid black;
+  height: 45px;
+  width: 300px;
+}
+.bouton{
+  height: 45px;
+}
+.imgpc{
+  height:168;
+}
+img.imgpc{
+  padding: 0;
+}
+.h3img{
+  margin: 0;
+  font-size:20px;
+  background-color: white;
+  line-height: 60px;
+  text-align: center;
+}
+.image{
+  padding: 0;
+}
+#seachtext{
+  border-right-style: none;
+  border-color:black;
+  border-width: 2px;
+  margin-top: 8px;
+  border-radius: 0%;
+  height: 40px;
+}
+.btn{
+  border-left-style: none;
+  border-color:black;
+  border-width: 2px;
+  background-color: black;
+  color:white;
+  border-radius: 0%;
+  padding: 10px;
+  height: 40px;
+  margin-top: 0px;
+
+}
+#btnsearch:hover{
+  border-left-style: none;
+  border-color: black;
+  background-color: orange;
+  color:white;
+  border-radius: 0%;
+}
+.labelsearch{
+  margin-left: 10px;
+}

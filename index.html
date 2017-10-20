@@ -2,11 +2,185 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/slider.css">
+    <link rel="stylesheet" href="assets/css/aside.css">
     <title>Orange : téléphones, forfaits, internet, actualité, sport, video</title>
   </head>
   <body>
     <div class="container">
-
+      <header>
+        <div class="row">
+          <div class="col-lg-1">
+            <a href="http://www.orange.fr/portail"><img class="logorange" src="assets/css/orange-w8.png" title="accueil orange" alt="Accueil Orange" /></a>
+          </div>
+          <div class="col-lg-7">
+            <form role="search" name="searchform" method="get">
+              <div class="row">
+                <div class="col-sm-9">
+                  <div class="form-group">
+                    <div class="input-group">
+                      <input id="seachtext" type="text" placeholder="recherche" name="s" class="form-control">
+                      <div class="input-group-btn">
+                        <button id="btnsearch" type="submit" class="btn btn-inverse glyphicon glyphicon-search"><span class="labelsearch">web</span></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </header>
     </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12-col-md-3 col-lg-3" id="aside">
+            <div id="top">
+              <h2>Clients Orange</h2>
+              <p>Gérer votre offre, vos factures, vos consos et vos équipements</p>
+              <span class="btn btn-1"><a href="#">Identifiez-vous</a></span>
+              <p>Une questions? Un problème?</p>
+              <h3>consulter l'assistance</h3>
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-sm-12 col-lg-12">
+                  <div class="dropdown">
+                      <a class="dropdown-toggle" data-toggle="dropdown">Besoin d'aide pour vous identifiez?
+                      <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#"><span class="glyphicon glyphicon-menu-right"></span>C'est votre première connexion</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-menu-right"></span>Vous êtes clients du fixe</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-menu-right"></span>Vous avez perdu vos identifiants</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-menu-right"></span>Vous avez perdu votre mobile</a></li>
+                      </ul>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div id="middle">
+              <span><img class="img-responsive" src="assets/img/gendarme.png" alt="photo d'un gendarme"></span>
+              <span class="btn btn-2"><a href="#">Accédez à l'actu</a></span>
+              <p>Découvrer tous les services et contenus d'Orange</p>
+            </div>
+            <div id="newsletter">
+              <h3><a href="#">Newsletter Orange</a></h3>
+              <p>Recevez chaque mois nos dernières innovations, astuces et bon plan</p>
+            </div>
+            <div id="bottom">
+              <span><img class="img-responsive" src="assets/img/voiture_side_bar.png" alt="Voiture autonome"></span>
+              <p id="picture-legend">voitures autonomes</p>
+              <p>C'est le moment de les tester !</p>
+              <h4><a href="#" title="conduisez-les ici">Conduisez-les ici</a></h4>
+            </div>
+          </div>
+        <div id="myCarousel" class="carousel slide col-lg-9" data-interval="false">
+          <!-- Indicators -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon glyphicon-menu-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <a href="https://boutique.orange.fr/bon-plan-promo/code-reduction/?&DCSext.wasc_vignette=portail_orange_web_1_ere_exclu_web_adsl_octobre" title="exclu_web_adsl_octobre"><img src="assets/img/slide1.png" alt="exclu_web_adsl_octobre"></a>
+            </div>
+            <div class="item">
+              <a href="https://boutique.orange.fr/mobile/forfait-mini-bloque-2h-5go-12-mois?DCSext.wasc_vignette=portail_orange_web_1_ere_forfait_mini_5Go" title="forfait_min_5go"><img src="assets/img/slide2.png" alt="forfait mini 5go"></a>
+            </div>
+            <div class="item">
+              <a href="https://boutique.orange.fr/tv/bouquet-cine-series?&DCSext.wasc_vignette=portail_orange_web_1_ere_the_walking_dead_saison_8" title="the_walking_dead_saison_8"><img src="assets/img/slide3.png" alt="walkind dead"></a>
+            </div>
+          </div>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="lyphicon glyphicon glyphicon-menu-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+            <ol class="carousel-indicators col-lg-12 text-center justify-content-center">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+          </div>
+
+      <div class="col-lg-9 row">
+          <h1><strong>Découvrir la boutique Orange</strong></h1>
+      </div>
+
+        <div class="col-lg-3">
+          <div class="row image">
+            <div class="col-lg-12">
+              <a href="https://boutique.orange.fr/internet/offres-fibre" alt="internet" tite="internet"><img class="imgpc col-lg-12" src="assets/img/imgpc.png" alt="Accueil Orange" />
+              <h3 class="h3img"><strong>Internet</strong></h3></a>
+            </div>
+          </div>
+        </div>
+        <div class="  col-lg-3">
+          <div class="row image">
+            <div class="col-lg-12">
+              <a href="https://boutique.orange.fr/mobile" alt="mobile" tite="mobile"><img class="imgpc col-lg-12" src="assets/img/mobile.png" alt="Accueil Orange" />
+              <h3 class="h3img"><strong>Mobile</strong></h3></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="row image">
+            <div class="col-lg-12">
+              <a href="https://boutique.orange.fr/internet-mobile" alt="internet+mobile" tite="internet+mobile"><img class="imgpc col-lg-12" src="assets/img/internet.png" alt="Accueil Orange" />
+              <h3 class="h3img"><strong>Internet + Mobile</strong></h3></a>
+            </div>
+          </div>
+        </div>
+        <div class="imgl2">
+        <div class="col-lg-3">
+          <div class="row image">
+            <div class="col-lg-12">
+              <a href="https://boutique.orange.fr/tv" alt="tele" tite="tele"><img class="imgpc col-lg-12" src="assets/img/tele.png" alt="Accueil Orange" />
+              <h3 class="h3img"><strong>TV d'Orange</strong></h3></a>
+            </div>
+          </div>
+        </div>
+        <div class="  col-lg-3">
+          <div class="row image">
+            <div class="col-lg-12">
+              <a href="https://boutique.orange.fr/accessoires" alt="accessoires" tite="accessoires"><img class="imgpc col-lg-12" src="assets/img/accessoires.png" alt="Accueil Orange" />
+              <h3 class="h3img"><strong>Accessoires</strong></h3></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="row image">
+            <div class="col-lg-12">
+              <a href="https://boutique.orange.fr/bon-plan-promo/" alt="bons plans" tite="bons plans"><img class="imgpc col-lg-12" src="assets/img/offres.png" alt="Accueil Orange" />
+              <h3 class="h3img"><strong>Bons plans</strong></h3></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="row">
+        <div class="col-lg-offset-3">
+          <h2><strong>Professionnels et créateurs d’entreprise</strong></h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-offset-3">
+          <a href="https://boutiquepro.orange.fr/" alt="boutique pro" tite="boutique pro"><img class="imgpc col-lg-12" src="assets/img/solutions.png" alt="Accueil Orange" /></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-offset-3">
+          <h2><strong>pourquoi acheter en ligne ?</strong></h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-offset-3">
+          <img class="imgpc col-lg-12" src="assets/img/aides.png" alt="Accueil Orange" />
+        </div>
+      </div>
+  </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>
