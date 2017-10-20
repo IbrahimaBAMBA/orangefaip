@@ -25,7 +25,11 @@ h1, h2{
   padding-left: 12px;
 }
 #titre{
-  margin-top: 25px;
+  margin-top: 10px;
+}
+#titre2{
+  position: relative;
+  top:-35px;
 }
 .champ{
   border-radius: 0%;

@@ -89,6 +89,12 @@ span img{
 .btn-2:hover{
   background-color: #F4791F;
   border: none;
+  color:#FFFFFF;
+}
+.btn-2:hover a{
+  background-color: #F4791F;
+  border: none;
+  color:white;
 }
 #top, #middle, #bottom{
   background-color: #FFFFFF;
@@ -103,6 +109,23 @@ span img{
 .dropdown-toggle{
 font-size:75% !important;
 font-weight: bold;
+}
+.dropdown-menu{
+font-size:75% !important;
+font-weight: bold;
+}
+.dropdown-menu > li > a{
+  margin: 0;
+  padding: 0;
+  height: 20px;
+  position: relative;
+}
+.dropdown-menu .glyphicon-menu-right{
+font-size:75% !important;
+font-weight: bold;
+color:orange;
+position: relative;
+top:1px;
 }
 .dropdown{
   width: 100%;
