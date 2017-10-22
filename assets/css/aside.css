@@ -8,7 +8,9 @@ span.btn.btn-1{
 #aside{
   font-family: arial,sans-serif;
   font-size: 1em;
-  padding: 10px;
+  padding: 15px;
+  padding-left: 0;
+  padding-right: 0;
   box-sizing: border-box;
   text-align: center;
   position: relative;
@@ -123,7 +125,7 @@ font-weight: bold;
 .dropdown-menu .glyphicon-menu-right{
 font-size:75% !important;
 font-weight: bold;
-color:orange;
+color:#f50;
 position: relative;
 top:1px;
 }

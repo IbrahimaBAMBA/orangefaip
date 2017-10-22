@@ -12,38 +12,36 @@
     <title>Orange : téléphones, forfaits, internet, actualité, sport, video</title>
   </head>
   <body>
-    <div class="container">
-      <header>
+    <header>
+      <div class="container">
         <div class="row">
           <div class="col-xs-1 col-ms-1 col-md-1 col-lg-1">
             <a href="http://www.orange.fr/portail"><img class="logorange" src="assets/css/orange-w8.png" title="accueil orange" alt="Accueil Orange" /></a>
           </div>
-          <div class="col-xs-4 col-ms-7 col-md-7 col-lg-7">
-            <form role="search" name="searchform" method="get">
-              <div class="row">
-                <div class="col-sm-9">
-                  <div class="form-group">
-                    <div class="input-group">
-                      <input list="searchlist" id="seachtext" type="text" name="s" class="form-control">
-                      <datalist id="searchlist">
-                        <div class="row">
-                          <option  class="col-lg-6" value="top tendance">top tendance</option>
-                          <option class="date col-lg-6" value="date">date</option>
+            <div class="col-xs-4 col-ms-7 col-md-7 col-lg-7">
+              <form role="search" name="searchform" method="get">
+                <div class="row">
+                  <div class="col-sm-9">
+                    <div class="form-group">
+                      <div class="input-group">
+                        <input list="searchlist" id="seachtext" type="text" name="search" class="form-control">
+                        <datalist id="searchlist">
+                          <span class="col-lg-6">top tendance</span><span class="col-lg-6">date</span>
+                          <option value="test">1 Pierre jox</option>
+                          <option value="test">2 la france a un incroyable talent</option>
+                          <option value="test">3 piece montee</option>
+                          <option value="test">4 julien clerc</option>
+                          <option value="test">5 Everton lyon</option>
+                        </datalist>
+                        <div class="input-group-btn">
+                          <button id="btnsearch" type="submit" class="btn btn-inverse glyphicon glyphicon-search"><span class="labelsearch">web</span></button>
                         </div>
-                        <option value="test">1 Pierre jox</option>
-                        <option value="test">2 la france a un incroyable talent</option>
-                        <option value="test">3 piece montee</option>
-                        <option value="test">4 julien clerc</option>
-                        <option value="test">5 Everton lyon</option>
-                      </datalist>
-                      <div class="input-group-btn">
-                        <button id="btnsearch" type="submit" class="btn btn-inverse glyphicon glyphicon-search"><span class="labelsearch">web</span></button>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </form>
+              </form>
+            </div>
           </div>
         </div>
       </header>
@@ -59,15 +57,15 @@
               <div class="row">
                 <div class="col-xs-12 col-sm-12 col-sm-12 col-lg-12">
                   <div class="dropdown">
-                      <a class="dropdown-toggle" data-toggle="dropdown">Besoin d'aide pour vous identifiez?
-                      <span class="caret"></span></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="https://assistance.orange.fr/assistance-commerciale/l-identification/vous-identifier/orange.fr-premiere-identification_77102-77993"><span class="glyphicon glyphicon-menu-right"></span>C'est votre première connexion</a></li>
-                        <li><a href="https://assistance.orange.fr/assistance-commerciale/l-identification/vous-identifier/orange.fr-vous-identifier_20499-20935"><span class="glyphicon glyphicon-menu-right"></span>Vous êtes clients du fixe</a></li>
-                        <li><a href="https://assistance.orange.fr/assistance-commerciale/l-identification/gerer-vos-mots-de-passe/mot-de-passe-perdu-ou-incorrect_216803-759648"><span class="glyphicon glyphicon-menu-right"></span>Vous avez perdu vos identifiants</a></li>
-                        <li><a href="https://assistance.orange.fr/mobile-tablette/tous-les-mobiles-et-tablettes/depanner"><span class="glyphicon glyphicon-menu-right"></span>Vous avez perdu votre mobile</a></li>
-                      </ul>
-                    </div>
+                    <a class="dropdown-toggle" data-toggle="dropdown">Besoin d'aide pour vous identifiez?
+                    <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="https://assistance.orange.fr/assistance-commerciale/l-identification/vous-identifier/orange.fr-premiere-identification_77102-77993"><span class="glyphicon glyphicon-menu-right"></span>C'est votre première connexion</a></li>
+                      <li><a href="https://assistance.orange.fr/assistance-commerciale/l-identification/vous-identifier/orange.fr-vous-identifier_20499-20935"><span class="glyphicon glyphicon-menu-right"></span>Vous êtes clients du fixe</a></li>
+                      <li><a href="https://assistance.orange.fr/assistance-commerciale/l-identification/gerer-vos-mots-de-passe/mot-de-passe-perdu-ou-incorrect_216803-759648"><span class="glyphicon glyphicon-menu-right"></span>Vous avez perdu vos identifiants</a></li>
+                      <li><a href="https://assistance.orange.fr/mobile-tablette/tous-les-mobiles-et-tablettes/depanner"><span class="glyphicon glyphicon-menu-right"></span>Vous avez perdu votre mobile</a></li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
@@ -87,13 +85,14 @@
               <h4><a href="https://www.orange.com/fr/accueil" title="conduisez-les ici">Conduisez-les ici</a></h4>
             </div>
           </div>
-        <div id="myCarousel" class="carousel slide col-xs-6 col-sm-7 col-md-8 col-lg-9" data-interval="false">
-          <!-- Indicators -->
+          <!--menu publicitaire déffilant -->
+          <div id="myCarousel" class="carousel slide col-xs-6 col-sm-7 col-md-8 col-lg-9" data-interval="false">
+          <!-- fleche gauche  -->
           <a class="left carousel-control" href="#myCarousel" data-slide="prev">
             <span class="glyphicon glyphicon glyphicon-menu-left"></span>
             <span class="sr-only">Previous</span>
           </a>
-          <!-- Wrapper for slides -->
+          <!-- photo publicitaire -->
           <div class="carousel-inner">
             <div class="item active">
               <a href="https://boutique.orange.fr/bon-plan-promo/code-reduction/?&DCSext.wasc_vignette=portail_orange_web_1_ere_exclu_web_adsl_octobre" title="exclu_web_adsl_octobre"><img src="assets/img/slide1.png" alt="exclu_web_adsl_octobre"></a>
@@ -115,139 +114,130 @@
               <li data-target="#myCarousel" data-slide-to="2"></li>
             </ol>
           </div>
-
-      <div class="col-xs-5 col-sm-7 col-md-8 col-lg-9">
-          <h1 id="titre" ><strong>Découvrir la boutique Orange</strong></h1>
-      </div>
-        <div class="col-xs-10 col-sm-6 col-md-3 col-lg-3">
-          <div class="row image">
-            <div class="col-lg-12">
-              <a href="https://boutique.orange.fr/internet/offres-fibre" alt="internet" tite="internet"><img class="imgpc col-lg-12" src="assets/img/imgpc.png" alt="Accueil Orange" />
-              <h3 class="h3img"><strong>Internet</strong></h3></a>
+          <div class="col-xs-5 col-sm-7 col-md-8 col-lg-9">
+            <h1 id="titre" ><strong>Découvrir la boutique Orange</strong></h1>
+          </div>
+          <div class="col-xs-10 col-sm-6 col-md-3 col-lg-3">
+            <div class="row image">
+              <div class="col-lg-12">
+                <a href="https://boutique.orange.fr/internet/offres-fibre" alt="internet" tite="internet"><img class="imgpc col-lg-12" src="assets/img/imgpc.png" alt="Accueil Orange"/><h3 class="h3img"><strong>Internet</strong></h3></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-10 col-sm-2 col-md-3 col-lg-3">
+            <div class="row image">
+              <div class="col-lg-12">
+                <a href="https://boutique.orange.fr/mobile" alt="mobile" tite="mobile"><img class="imgpc col-lg-12" src="assets/img/mobile.png" alt="Accueil Orange"/><h3 class="h3img"><strong>Mobile</strong></h3></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-10 col-sm-6 col-md-3 col-lg-3">
+            <div class="row image">
+              <div class="col-lg-12">
+                <a href="https://boutique.orange.fr/internet-mobile" alt="internet+mobile" tite="internet+mobile"><img class="imgpc col-lg-12" src="assets/img/internet.png" alt="Accueil Orange"/><h3 class="h3img"><strong>Internet + Mobile</strong></h3></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-10 col-sm-2 col-md-3 col-lg-3">
+            <div class="row image">
+              <div class="col-lg-12 dissident">
+                <a href="https://boutique.orange.fr/tv" alt="tele" tite="tele"><img class="imgpc col-lg-12" src="assets/img/tele.png" alt="Accueil Orange"/><h3 class="h3img"><strong>TV d'Orange</strong></h3></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-10 col-sm-6 col-md-3 col-lg-3">
+            <div class="row image">
+              <div class="col-lg-12 dissident">
+                <a href="https://boutique.orange.fr/accessoires" alt="accessoires" tite="accessoires"><img class="imgpc col-lg-12" src="assets/img/accessoires.png" alt="Accueil Orange"/><h3 class="h3img"><strong>Accessoires</strong></h3></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-10 col-sm-2 col-md-3 col-lg-3">
+            <div class="row image">
+              <div class="col-lg-12 dissident">
+                <a href="https://boutique.orange.fr/bon-plan-promo/" alt="bons plans" tite="bons plans"><img class="imgpc col-lg-12" src="assets/img/offres.png" alt="Accueil Orange"/><h3 class="h3img"><strong>Bons plans</strong></h3></a>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-xs-10 col-sm-2 col-md-3 col-lg-3">
-          <div class="row image">
-            <div class="col-lg-12">
-              <a href="https://boutique.orange.fr/mobile" alt="mobile" tite="mobile"><img class="imgpc col-lg-12" src="assets/img/mobile.png" alt="Accueil Orange" />
-              <h3 class="h3img"><strong>Mobile</strong></h3></a>
+        <div class="row">
+          <div class="col-lg-offset-3">
+            <h2 id="titre2"><strong>Professionnels et créateurs d’entreprise</strong></h2>
+          </div>
+          <div class="row">
+            <div class="col-sm-offset-2 col-lg-offset-3">
+              <a href="https://boutiquepro.orange.fr/" alt="boutique pro" tite="boutique pro"><img class="imgpc col-lg-12" src="assets/img/solutions.png" alt="Accueil Orange" /></a>
             </div>
           </div>
-        </div>
-        <div class="col-xs-10 col-sm-6 col-md-3 col-lg-3">
-          <div class="row image">
-            <div class="col-lg-12">
-              <a href="https://boutique.orange.fr/internet-mobile" alt="internet+mobile" tite="internet+mobile"><img class="imgpc col-lg-12" src="assets/img/internet.png" alt="Accueil Orange" />
-              <h3 class="h3img"><strong>Internet + Mobile</strong></h3></a>
+          <div class="row">
+            <div class="col-sm-offset-2 col-lg-offset-3">
+              <h2><strong>Pourquoi acheter en ligne ?</strong></h2>
             </div>
           </div>
-        </div>
-        <div class="col-xs-10 col-sm-2 col-md-3 col-lg-3">
-          <div class="row image">
-            <div class="col-lg-12 dissident">
-              <a href="https://boutique.orange.fr/tv" alt="tele" tite="tele"><img class="imgpc col-lg-12" src="assets/img/tele.png" alt="Accueil Orange" />
-              <h3 class="h3img"><strong>TV d'Orange</strong></h3></a>
+          <div class="row">
+            <div class="col-sm-offset-2 col-lg-offset-3">
+              <img class="img pc col-lg-12" src="assets/img/aides.png" alt="Accueil Orange"/>
             </div>
           </div>
-        </div>
-        <div class="col-xs-10 col-sm-6 col-md-3 col-lg-3">
-          <div class="row image">
-            <div class="col-lg-12 dissident">
-              <a href="https://boutique.orange.fr/accessoires" alt="accessoires" tite="accessoires"><img class="imgpc col-lg-12" src="assets/img/accessoires.png" alt="Accueil Orange" />
-              <h3 class="h3img"><strong>Accessoires</strong></h3></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-10 col-sm-2 col-md-3 col-lg-3">
-          <div class="row image">
-            <div class="col-lg-12 dissident">
-              <a href="https://boutique.orange.fr/bon-plan-promo/" alt="bons plans" tite="bons plans"><img class="imgpc col-lg-12" src="assets/img/offres.png" alt="Accueil Orange" />
-              <h3 class="h3img"><strong>Bons plans</strong></h3></a>
-            </div>
-          </div>
-        </div>
-    </div>
-      <div class="row">
-        <div class="col-lg-offset-3">
-          <h2 id="titre2"><strong>Professionnels et créateurs d’entreprise</strong></h2>
-      </div>
-      <div class="row">
-        <div class="col-sm-offset-2 col-lg-offset-3">
-          <a href="https://boutiquepro.orange.fr/" alt="boutique pro" tite="boutique pro"><img class="imgpc col-lg-12" src="assets/img/solutions.png" alt="Accueil Orange" /></a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-offset-2 col-lg-offset-3">
-          <h2><strong>Pourquoi acheter en ligne ?</strong></h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-offset-2 col-lg-offset-3">
-          <img class="img pc col-lg-12" src="assets/img/aides.png" alt="Accueil Orange" />
         </div>
       </div>
-  </div>
-  <footer class="page-footer center-on-small-only white-grey lighten-5 pt-0">
-
-  <div class="container">
-  <div class="row">
-    <hr class="col-lg-offset-3"/>
-  </div>
-    <div id="rowdes" class="row">
-      <p class="hidden-col-xs col-lg-offset-3 col-lg-9" id="description">Découvrez l’univers Mobile Orange avec <a href="https://boutique.orange.fr/mobile">une large gamme
+      <footer class="page-footer center-on-small-only white-grey lighten-5 pt-0">
+        <div class="container">
+          <div class="row">
+            <hr class="col-lg-offset-3"/>
+          </div>
+          <div id="rowdes" class="row">
+            <p class="hidden-col-xs col-lg-offset-3 col-lg-9" id="description">Découvrez l’univers Mobile Orange avec <a href="https://boutique.orange.fr/mobile">une large gamme
     de téléphones mobiles</a>, et <a href="https://boutique.orange.fr/mobile">un grand choix d’offres mobiles</a> : mobicarte, forfaits
-     bloqués, forfaits Origami avec illimité et clé 3G+ - l'option deezer. Retrouvez
-      l’univers Internet d’Orange avec <a href="https://boutique.orange.fr/internet/offres-adsl">les offres ADSL</a>, TV,
+     bloqués, forfaits Origami avec illimité et clé 3G+ - l'option deezer. Retrouvez l’univers Internet d’Orange avec <a href="https://boutique.orange.fr/internet/offres-adsl">les offres ADSL</a>, TV,
          <a href="https://boutique.orange.fr/accessoires/fixesaccessoiresboxettv-fixes">téléphone fixe</a> et <a href="https://boutique.orange.fr/internet/offres-fibre">fibre
        optique</a> mais également la Livebox et <a href="https://boutique.orange.fr/accessoires">tous ses accessoires high tech</a>. Accédez
        à Internet en déplacement depuis votre ordinateur portable avec la Clé 3G+
         avec les pass, forfaits bloqués ou illimités Orange. la boutique Orange |
         plan site orange.fr | découvrez votre couverture réseau Fibre et mobile |
         Orange à votre service</p>
-     </div>
-   </div>
-
-     <div class="container">
-      <hr/>
-         <h2 id="h2footer" class="row">Orange à votre service</h2>
-       <div id="liste" class="row">
-         <div id="para1" class="col-lg-4"><h3><a href="http://orangesengage.orange.fr/" title="Orange s'engage">Orange s'engage</a></h3>
+          </div>
+        </div>
+      <div class="container">
+        <hr/>
+        <h2 id="h2footer" class="row">Orange à votre service</h2>
+        <div id="liste" class="row">
+          <div id="para1" class="col-lg-4"><h3><a href="http://orangesengage.orange.fr/" title="Orange s'engage">Orange s'engage</a></h3>
             <ul>
               <li><a href="http://orangesengage.orange.fr/" title="Orange s'engage"> <span class="glyphicon glyphicon-chevron-right"></span>Découvrez les 6 engagements Orange</a></li>
               <li><a href="https://contact.orange.fr/" title="Nous contacter"> <span class="glyphicon glyphicon-chevron-right"></span>Contacter Orange</a></li>
             </ul>
-        </div>
-        <div id="para2" class="col-xs-1 col-sm-8 col-md-8col-lg-8 row">
-          <h3><a href="https://bienvivreledigital.orange.fr/" title="Bien vivre le digital">Bien vivre le digital</a></h3>
-          <div class="row">
-            <div class="col-lg-4">
-              <ul>
-                <li><a href="https://bienvivreledigital.orange.fr/"> <span class="glyphicon glyphicon-chevron-right"></span>Réflexes verts et recyclage </a></li>
-                <li><a href="https://bienvivreledigital.orange.fr/"> <span class="glyphicon glyphicon-chevron-right"></span>Ondes radios et santé</a></li>
-              </ul>
-            </div>
-            <div class="col-lg-5">
-              <ul>
-                <li><a href="https://bienvivreledigital.orange.fr/"> <span class="glyphicon glyphicon-chevron-right"></span>Contrôle parental</a></li>
-                <li><a href="https://bienvivreledigital.orange.fr/"> <span class="glyphicon glyphicon-chevron-right"></span>Protection des données et securité</a></li>
-              </ul>
-            </div>
-            <div class="col-lg-3">
-              <ul>
-                <li><a href="https://bienvivreledigital.orange.fr/"> <span class="glyphicon glyphicon-chevron-right"></span>Autonomie</a></li>
-              </ul>
+          </div>
+          <div id="para2" class="col-xs-1 col-sm-8 col-md-8col-lg-8 row">
+            <h3><a href="https://bienvivreledigital.orange.fr/" title="Bien vivre le digital">Bien vivre le digital</a></h3>
+            <div class="row">
+              <div class="col-lg-4">
+                <ul>
+                  <li><a href="https://bienvivreledigital.orange.fr/"> <span class="glyphicon glyphicon-chevron-right"></span>Réflexes verts et recyclage </a></li>
+                  <li><a href="https://bienvivreledigital.orange.fr/"> <span class="glyphicon glyphicon-chevron-right"></span>Ondes radios et santé</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-5">
+                <ul>
+                  <li><a href="https://bienvivreledigital.orange.fr/"> <span class="glyphicon glyphicon-chevron-right"></span>Contrôle parental</a></li>
+                  <li><a href="https://bienvivreledigital.orange.fr/"> <span class="glyphicon glyphicon-chevron-right"></span>Protection des données et securité</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-3">
+                <ul>
+                  <li><a href="https://bienvivreledigital.orange.fr/"> <span class="glyphicon glyphicon-chevron-right"></span>Autonomie</a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
-       </div>
-       <hr/>
-     <div id="pied" class="row">
-       <p id="mention"><span class="col-lg-2"><a href="#" title="Informations légales">Informations légales</a></span><span class="col-lg-2 text-center"><a href="#" title="Publicité">Publicité</a></span><span class="col-lg-2 text-center"><a href="#" title="Internet">Internet +</a></span>
+        <hr/>
+        <div id="pied" class="row">
+          <p id="mention"><span class="col-lg-2"><a href="#" title="Informations légales">Informations légales</a></span><span class="col-lg-2 text-center"><a href="#" title="Publicité">Publicité</a></span><span class="col-lg-2 text-center"><a href="#" title="Internet">Internet +</a></span>
           <span class="col-lg-2 text-center"><a href="#" title="Signaler un contenu">Signaler un contenu</a></span><span class="col-lg-2 text-center"><a href="#" title="données personnelles">données personnelles</a></span><span class="col-lg-2 text-right"><a href="#" title="les cookies"> cookies</a></span></p>
-     </div>
-   </div>
-</footer>
+        </div>
+      </div>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
   </body>
