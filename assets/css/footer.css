@@ -27,7 +27,7 @@ p{
 #h2footer{
   margin-bottom: 3%;
   color: #f50;
-  font-size: 1.833em !important;
+  font-size: 1.833em;
   font-weight: bold;
 }
 #liste, #liste a {
@@ -78,7 +78,7 @@ span.col-lg-2{
   margin-right: 0px;
 }
 p#description > a{
-  text-decoration: none !important;
+  text-decoration: none;
   color:black;
   font-weight: normal;
   font-family: arial, sans-serif;
