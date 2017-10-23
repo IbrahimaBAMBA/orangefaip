@@ -23,7 +23,6 @@ a:hover{
 h1,h2{
   color: #000;
   font-size: 30px;
-  padding-left: 12px;
 }
 h1#titre{
   margin-top: 40px
@@ -31,9 +30,8 @@ h1#titre{
 #titre{
   margin-top: 10px;
 }
-#titre2{
-  position: relative;
-  top:-35px;
+.bandeau{
+  padding-left: 15px;
 }
 .champ{
   border-radius: 0%;
@@ -45,9 +43,6 @@ h1#titre{
 }
 .bouton{
   height: 45px;
-}
-.imgpc{
-  height:168;
 }
 img.imgpc{
   padding: 0;
@@ -62,7 +57,7 @@ img.imgpc{
 .image{
   margin-bottom: 20px;
 }
-#seachtext{
+#searchtext{
   border-right-style: none;
   border-color:black;
   border-width: 2px;
@@ -93,44 +88,97 @@ img.imgpc{
 .labelsearch{
   margin-left: 10px;
 }
-@media screen and (max-width:759px)
+@media screen and (max-width:767px)
 {
-  .dissident{
-    margin-left: 160px;
-  }
-  .h3img{
-    width: 220px;
-  }
-  .container{
-    margin: 0;
-  }
-  #rowdes{
-    visibility: hidden;
-  }
   #para2{
-    background-color: white;
-    margin: auto;
-    padding-left: 15px;
-    padding-top: -5px;
-    width:20px;
+    width:350px;
+  }
+  *{
+    max-width: 700px;
+  }
+  .container{
+    padding: 0;
+    margin: 0;
+  }
+body{
+  padding-left: 20px;
+}
+#myCarousel{
+  top: 50%;
+}
+  .btn{
+    margin: 0;
+  }
+  .h3img{
+    width: 216px;
+  }
+  #btnsearch{
+    margin-top: 5px;
   }
 }
-@media screen and (min-width:760px) and (max-width:991px)
+@media screen and (min-width:768px) and (max-width:991px)
 {
+  .btn{
+    margin: 0;
+  }
+  #myCarousel{
+    top: 50%; left:15%;
+  }
+  .h3img{
+    width: 216px;
+  }
+  .container{
+    margin: 0;
+  }
+  body{
+    padding-left: 50px;
+  }
+  #titre{
+    text-align: center;
+  }
+  .dissident{
+    margin-right: 10px;
+  }
+  .lignecase{
+    margin-left: 15px;
+  }
+  #btnsearch{
+    margin-top: 5px;
+  }
+  #para1{
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width:991px) and (max-width:1199px)
+{
+  .liste2{
+    display: inline-block;
+  }
+  #para1{
+    margin-bottom: 20px;
+  }
+  #cases{
+    padding-left: 90px;
+  }
+  #titre{
+    text-align: center;
+  }
+  #myCarousel{
+  top: 50%; left:20%;
+  }
+  body{
+    padding-left: 50px;
+  }
   .h3img{
     width: 220px;
   }
   .container{
     margin: 0;
   }
-}
-@media screen and (min-width:992px) and (max-width:1199px)
-{
-  .h3img{
-    width: 220px;
-  }
-  .container{
+  .btn{
     margin: 0;
   }
+  #btnsearch{
+    margin-top: 5px;
   }
-}
+  }
